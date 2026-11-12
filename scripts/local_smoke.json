@@ -1,0 +1,5 @@
+[
+ {"experiment":"smoke","version":"serial","n":10000,"d":8,"k":5,"iterations":10,"seed":42,"ranks":1,"threads":1},
+ {"experiment":"smoke","version":"mpi","n":10000,"d":8,"k":5,"iterations":10,"seed":42,"ranks":2,"threads":1},
+ {"experiment":"smoke","version":"hybrid","n":10000,"d":8,"k":5,"iterations":10,"seed":42,"ranks":2,"threads":2}
+]

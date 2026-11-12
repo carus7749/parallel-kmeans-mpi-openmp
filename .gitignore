@@ -1,0 +1,17 @@
+/bin/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+/results/atlas/
+/results/submissions/
+/report/*.pdf
+/report/latex/*.pdf
+/report/latex/*.aux
+/report/latex/*.log
+/report/latex/*.out
+/report/latex/*.xdv
+*.zip

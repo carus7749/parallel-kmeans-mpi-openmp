@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N km_build
+#PBS -q serial
+#PBS -l select=1:ncpus=1:mpiprocs=1:ompthreads=1:mem=2gb
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -S /bin/bash
+# Single-core serial queue; compilation occurs inside the PBS allocation.
+set -euo pipefail
+cd "${PBS_O_WORKDIR:?}"
+bash scripts/atlas/job.sh build
